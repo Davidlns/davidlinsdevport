@@ -1,0 +1,68 @@
+.Containerskills{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.icons{
+    margin-top: 50px;
+    margin-left: -50px;   
+}
+
+.iconslinhas{
+    margin-bottom: 40px;
+    position: relative;
+    right: 50px;
+}
+
+.tecicon{
+    width: 80px;
+}
+
+.pageskills{
+    display: flex;
+    flex-direction: column;
+}
+
+.textoskill{
+    margin-left: 0px;
+    margin-top: 90px;
+}
+
+.linha2{
+    border: none; 
+    border-top: 3px solid aqua;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    opacity: 60%;
+    position: absolute;
+    left: 0;
+    top: 1800px;
+    
+}
+
+.icons img:hover{
+    scale: 1.4;
+}
+
+.icons img{
+    transition: scale 0.5s;
+    -webkit-transition: scale 0.5s;
+    -moz-transition: scale 0.5s;
+    -ms-transition: scale 0.5s;
+    -o-transition: scale 0.5s;
+}
+
+
+        @media(max-width: 1400px){
+            .textoskill{
+                .Titulo2{
+                    margin-left: 100px;
+                }
+
+                .Titulo3{
+                    margin-left: 100px;
+                }
+            }
+        }

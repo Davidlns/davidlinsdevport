@@ -1,0 +1,39 @@
+#datah3{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+#relogioh2{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    margin-top: -10px;
+}
+
+.datahora{
+    margin-top: -520px;
+    margin-right: -150px;
+}
+
+        @media (max-width: 991px) {
+            .datahora{
+                margin-top: -440px;
+                margin-left: -150px;
+            }
+        }
+
+        @media (max-width: 555px) {
+
+            .datahora{
+                margin-top: -360px;
+            }
+
+            #datah3{
+                font-size: 12px;
+            }
+
+            #relogioh2{
+                font-size: 70px;
+            }
+        }
+
+        

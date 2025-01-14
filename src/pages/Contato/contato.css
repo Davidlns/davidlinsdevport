@@ -1,0 +1,28 @@
+.titcontato{
+    color: aqua;
+    font-size: 80px;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.social-links{
+    margin-top: 100px;
+    margin-left: -150px;
+}
+
+.social-links img{
+    transition: transform 0.7s;
+    max-width: 200px;
+    -webkit-transition: transform 0.7s;
+    -moz-transition: transform 0.7s;
+    -ms-transition: transform 0.7s;
+    -o-transition: transform 0.7s;
+}
+
+.social-links img:hover{
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+}

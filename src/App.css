@@ -1,0 +1,33 @@
+*{
+  
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+body{
+  justify-content: center;
+  background: linear-gradient(rgb(16, 17, 39), rgb(3, 3, 7), rgb(7, 6, 58));
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  min-width: 90vh;
+  width: 100%;
+}
+
+.linhas{
+  border: none; 
+  border-top: 3px solid aqua;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  opacity: 60%;
+  position: absolute;
+  top: 850px;
+  
+}

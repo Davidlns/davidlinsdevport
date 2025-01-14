@@ -1,0 +1,53 @@
+.formtit{
+    color: aqua;
+    font-size: 50px;
+    margin-top: 90px;
+}
+
+.infoform{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.card img{
+    height: 250px;
+}
+
+.card-body{
+    background-color: rgb(27, 27, 27);
+
+    & h4{
+        color: aqua;
+        font-size: 27px;
+    }
+
+    & h5{
+        color: aqua;
+        font-size: 25px;
+    }
+
+    & p{
+        color: rgb(154, 248, 248);
+        font-size: 20px;
+        font-style: italic;
+    }
+}
+
+.card-img-top{
+    padding: 0;
+    margin: 0;
+}
+
+.linhaform{
+    border: none; 
+    border-top: 3px solid aqua;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    opacity: 60%;
+    position: absolute;
+    left: 0;
+    top: 2740px;
+}

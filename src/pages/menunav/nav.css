@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+
+    padding: 25px;
+}
+
+.Logo{
+    margin: 0;
+    padding: 0;
+    color: aqua;
+    margin-top: 0.5%;
+    font-size: 35px;
+}
+
+#linksPages a {
+    margin-right: 100px;
+    font-size: 25px;
+    color: aqua;
+    text-decoration: none;
+}
+
+nav div{
+    margin-top: 1%;
+    margin-left: 20%;
+}
+
+.iconepages{
+    font-size: 50px;
+    color: aliceblue;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    opacity: 0;
+    cursor: default;
+}
+
+#homel, #skillsl, #formacoesl, #projetosl, #contatol{
+    transition: font-size 0.5s;
+}
+
+#homel:hover, #skillsl:hover, #formacoesl:hover, #projetosl:hover, #contatol:hover{
+    font-size: 35px;
+    color: aliceblue;
+}
+
+hr{
+    border: none; 
+    border-top: 3px solid aqua;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    opacity: 60%;
+    position: absolute;
+    left: 0;
+    top: 120px;
+    
+}
+
+
+
+
+
+

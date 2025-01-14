@@ -1,0 +1,43 @@
+.gallery {
+    display: flex;
+    overflow-x: auto;  
+    overflow-y: hidden;
+    width: 100%; 
+    max-width: 1470px; 
+    padding: 10px;
+    gap: 20px; 
+    padding: 30px;
+    padding-bottom: 30px;
+    
+    scrollbar-color: aqua transparent;
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 28rem;
+    margin-right: 10px;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.titProjetos {
+    font-size: 100px;
+    color: aqua;
+    margin-top: 80px;
+}
+
+.linhaproj{
+    border: none; 
+    border-top: 3px solid aqua;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    opacity: 60%;
+    position: absolute;
+    left: 0;
+    top: 3660px;
+}
